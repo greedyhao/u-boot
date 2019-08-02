@@ -72,6 +72,8 @@
 #include <video.h>
 #include <linux/compiler.h>
 
+#define CONFIG_HIDE_LOGO_VERSION
+
 #if defined(CONFIG_VIDEO_MXS)
 #define VIDEO_FB_16BPP_WORD_SWAP
 #endif
